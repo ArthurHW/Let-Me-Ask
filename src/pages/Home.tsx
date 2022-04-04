@@ -8,6 +8,7 @@ import '../styles/auth.scss'
 import { Button } from '../components/Button';
 import { useAuth } from '../hooks/useAuth';
 
+import { getAuth } from 'firebase/auth';
 
 export function Home() {
     const navigate = useNavigate();
